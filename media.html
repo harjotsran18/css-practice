@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document 16</title>
+    <style>
+        @media(max-width: 700px)
+        {
+            body{
+                background-color: red;
+                img{
+                    display: inline-block;
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+        }
+        @media((min-width:701px) and (max-width:1200px))
+        {
+            body{
+                background-color: yellow;
+            }
+            img{
+                    display: inline-block;
+                    width: 400px;
+                    height: 400px;
+                }
+        }
+        @media(min-width:1201px)
+        {
+            body{
+                background-color: green;
+            }
+            img{
+                    display: inline-block;
+                    width: 600px;
+                    height: 600px;
+                }
+        }
+    </style>
+</head>
+<body>
+    <h1>Demo of media query</h1>
+    <img src="./images/image.png" alt="image678">
+</body>
+</html>

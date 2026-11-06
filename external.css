@@ -1,0 +1,9 @@
+h1{
+    color: red;
+    background-color: rgba(0, 221, 255, 0.755);
+}
+p{
+    background-color: brown;
+    color: antiquewhite;
+    font-size: 40px;
+}

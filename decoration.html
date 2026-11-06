@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document 18</title>
+    <style>
+        #div1{
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            animation-name: movebox;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            position: relative;
+        }
+        @keyframes movebox{
+            from{
+                left: 0px;
+                top: 0px;
+                background-color: yellow;
+                width: 200px;
+                height: 200px;
+            }
+            to{
+                left: 400px;
+                top: 400px;
+                background-color: red;
+                width: 400px;
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+</body>
+</html>

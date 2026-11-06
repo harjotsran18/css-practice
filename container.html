@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document 15</title>
+    <style>
+        #container{
+            display: flex;
+            flex-direction: row-reverse;
+            height: 700px;
+            justify-content: center;
+            align-items: center;
+        }
+        #container,.child{
+            border: 1px solid black;
+        }
+        .child{
+            margin: 30px;
+            padding: 30px;
+            border: 1px solid black;
+        }
+        #c1{
+            flex-shrink: 1;
+        }
+        #c2{
+            flex-shrink: 2;
+        }
+        #c3{
+            flex-shrink: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="child" id="c1">one</div>
+        <div class="child" id="c2">two</div>
+        <div class="child" id="c3">three</div>
+    </div>
+</body>
+</html>
